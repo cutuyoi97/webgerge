@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Institución Educativa Fernando Botero</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/xicon" href="images/Modelo web colegio-05.png">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="menu">
+            <div class="btn"><a href="mision.html">Misión</a></div>
+            <div class="btn"><a href="vision.html">Visión</a></div>
+            <div class="btn"><a href="index copy.html"><img src="images/escudo colegio.png" alt="" width="20%"></a></div>
+            <div class="btn"><a href="valores.html">Valores</a></div>
+            <div class="btn"><a href="contacto.html">Contacto</a></div>
+        </div>
+        <div class="caja01">
+            <div class="texti">
+                <h1>Bienvenido a nuestra institución</h1>
+                <h2>En la IEBFB queremos saber más de ti</h2>
+                <p>Por favor déjanos tus comentarios, experiencia y sugerencias aquí</p>
+            </div>
+            <div class="imagen">
+                <h1>Contáctanos</h1>
+                <p>Por favor, completa los siguientes campos</p>
+                <form>
+                    <fieldset>
+                        <label for="nombre">Por favor, escribe tu nombre:<input id="nombre"name="nombre" type="text" required></label>
+                        <label for="apellido">Por favor, escribe tu apellido:<input id="apellido"name="apellido" type="text" required></label>
+                        <label for="email">Por favor, escribe tu correo electrónico:<input id="email"name="email" type="email" required></label>
+                    </fieldset>
+                    <fieldset>
+                    <legend>¿Qué quieres sugerir?</legend>
+                    <label for="sugerencia"><input id="suge" type="radio" name="tipopqr" class="inline">Sugerencia</label>
+                    <label for="queja"><input id="queja" type="radio" name="tipopqr" class="inline">Queja</label>
+                    <label for="feñicitaciones"><input id="felicitaciones" type="radio" name="tipopqr" class="inline" checked>Felicitaciones</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Te contactaremos</legend>
+                        <label for="refe">¿Cómo quieres ser contactado?
+                            <select id="refe" name="refe">
+                                <option value="">Seleccione uno</option>
+                                <option value="1">Por correo electrónico</option>
+                                <option value="2">Por celular</option>
+                                <option value="3">Por teléfono fijo</option>
+                                <option value="4">Ninguna de las anteriores</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <label for="comentario">Escribe un comentario:
+                        <textarea id="comentario" name="comentario" rows="4" cols="30" placeholder="¿Qué quieres comentar?"></textarea>
+                    </label>
+                    <input type="submit" formaction="gracias.html" value="Enviar">
+                </form>
+        </div>
+        </div>
+        <div class="caja01" id="alreves">
+            <div class="texti">En la IEBFB está comprometidos con la educación. Gracias por tu interés en nuestra institución, estamos ansiosos por conocerte y ayudarte en tu viaje educativo. ¡Esperamos verte pronto!</div>
+            <div class="imagen"><img src="images/colegio-angela-maria-restrepo.jpg" alt=""></div>
+        </div>
+        <div class="pie">
+            <p>Página web por: Jorge Andrés Mosquera - Colombia 2024</p>
+            <div class="redes"><a href="https://www.facebook.com/checkpoint/828281030927956/?next=https%3A%2F%2Fwww.facebook.com%2FSecretariaEducacionAntioquia%2F%3Flocale%3Des_LA" target="_blank"><img src="images/facebook.png"></a></div>
+            <div class="redes"><a href="https://www.instagram.com/seduca.sindicatodocente/?hl=es-la" target="_blank"><img src="images/instagram.png"></a></div>
+            <div class="redes"><a href="https://www.youtube.com/@SecEducacionAnt" target="_blank"><img src="images/youtube.png"></a></div>
+        </div>
+    </div>
+</body>
+
+</html>
